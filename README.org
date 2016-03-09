@@ -1,0 +1,53 @@
+#+TITLE:Logistic Regression
+* Test
+
+
+#+BEGIN_SRC ipython :session mysession :exports both
+  def foo(x):
+      returnc x + 9
+
+  [foo(x) + 7 for x in range(7)]
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC R :session *R* :exports results :results replace output raw :eval export
+ print(c("1","2","3"))
+#+END_SRC
+
+#+RESULTS:
+[1] "1" "2" "3"
+
+#+BEGIN_SRC python :results output
+# -*- coding: utf-8 -*-"
+print ("石子佳")
+#+END_SRC
+
+#+BEGIN_SRC ipython :session
+  %matplotlib inline
+  import matplotlib.pyplot as plt
+  import numpy as np
+  
+#+END_SRC
+
+#+RESULTS:
+
+#+BEGIN_SRC ipython :session mysession :exports both
+  def foo(x):
+      return x + 9
+
+  [foo(x) + 7 for x in range(7)]
+#+END_SRC
+
+#+RESULTS:
+: [16, 17, 18, 19, 20, 21, 22]
+ 
+#+BEGIN_SRC ipython :session :file /tmp/image.png :exports both
+  plt.hist(np.random.randn(20000), bins=200)
+#+END_SRC
+
+#+RESULTS:
+[[file:/tmp/image.png]]
+
+
+
